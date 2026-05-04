@@ -1,79 +1,191 @@
-import { useEffect, useMemo, useState } from 'react';
-import axios from 'axios';
+import { useEffect, useState } from 'react';
+import { supabase } from './lib/supabase';
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5001';
-
-const gradientBorder = 'border border-glass-border';
+const PAGE_SIZE = 12;
 
 export default function App() {
   const [tools, setTools] = useState([]);
-  const [filtered, setFiltered] = useState([]);
+  const [categories, setCategories] = useState(['All']);
+  const [categoryCounts, setCategoryCounts] = useState({});
   const [activeCategory, setActiveCategory] = useState('All');
   const [search, setSearch] = useState('');
+  const [debouncedSearch, setDebouncedSearch] = useState('');
   const [loading, setLoading] = useState(true);
+  const [loadingMore, setLoadingMore] = useState(false);
   const [error, setError] = useState('');
-  const [formData, setFormData] = useState({
-    name: '',
-    link: '',
-    category: '',
-    tags: '',
-    icon: ''
-  });
+  const [page, setPage] = useState(0);
+  const [hasMore, setHasMore] = useState(false);
+  const [formData, setFormData] = useState({ name: '', link: '', category: '', tags: '', icon: '' });
 
   useEffect(() => {
-    const fetchTools = async () => {
-      try {
-        const res = await axios.get(`${API_BASE}/api/tools`);
-        setTools(res.data || []);
-        setFiltered(res.data || []);
-      } catch (err) {
-        console.error(err);
-        setError('Unable to load tools. Check server or connection.');
-      } finally {
-        setLoading(false);
+    const timer = setTimeout(() => setDebouncedSearch(search.trim()), 350);
+    return () => clearTimeout(timer);
+  }, [search]);
+
+  useEffect(() => {
+    const loadCategories = async () => {
+      const { data, error: categoryError } = await supabase
+        .from('tools')
+        .select('category')
+        .limit(1000);
+
+      if (categoryError) {
+        console.error(categoryError);
+        return;
       }
+
+      const counts = {};
+      const nextCategories = Array.from(
+        new Set(
+          (data ?? [])
+            .map((item) => item.category?.trim())
+            .filter(Boolean)
+        )
+      ).sort();
+
+      for (const item of data ?? []) {
+        const category = item.category?.trim();
+        if (!category) continue;
+        counts[category] = (counts[category] ?? 0) + 1;
+      }
+
+      setCategories(['All', ...nextCategories]);
+      setCategoryCounts(counts);
     };
 
-    fetchTools();
+    loadCategories();
   }, []);
 
   useEffect(() => {
-    const term = search.toLowerCase();
-    const next = tools.filter((tool) => {
-      const matchesCategory = activeCategory === 'All' || tool.category?.toLowerCase() === activeCategory.toLowerCase();
-      const matchesSearch = tool.name.toLowerCase().includes(term) || tool.tags?.some((t) => t.toLowerCase().includes(term));
-      return matchesCategory && (term ? matchesSearch : true);
-    });
-    setFiltered(next);
-  }, [search, activeCategory, tools]);
+    fetchTools({ reset: true });
+  }, [activeCategory, debouncedSearch]);
 
-  const categories = useMemo(() => {
-    const cats = new Set(tools.map((t) => t.category));
-    return ['All', ...Array.from(cats).filter(Boolean).sort()];
-  }, [tools]);
+  const normalizeTool = (tool) => ({
+    ...tool,
+    createdAt: tool.created_at ?? tool.createdAt,
+  });
+
+  const buildQuery = (from, to) => {
+    let query = supabase
+      .from('tools')
+      .select('*')
+      .order('created_at', { ascending: false })
+      .range(from, to);
+
+    if (activeCategory !== 'All') {
+      query = query.eq('category', activeCategory);
+    }
+
+    if (debouncedSearch) {
+      query = query.ilike('name', `%${debouncedSearch}%`);
+    }
+
+    return query;
+  };
+
+  const fetchTools = async ({ reset = false } = {}) => {
+    setError('');
+    if (reset) {
+      setLoading(true);
+    } else {
+      setLoadingMore(true);
+    }
+
+    try {
+      const nextPage = reset ? 0 : page;
+      const from = nextPage * PAGE_SIZE;
+      const to = from + PAGE_SIZE - 1;
+      const { data, error: fetchError } = await buildQuery(from, to);
+
+      if (fetchError) {
+        throw fetchError;
+      }
+
+      const normalized = (data ?? []).map(normalizeTool);
+      setTools((prev) => (reset ? normalized : [...prev, ...normalized]));
+      setPage(nextPage + 1);
+      setHasMore(normalized.length === PAGE_SIZE);
+    } catch (fetchError) {
+      console.error(fetchError);
+      setError(fetchError.message || 'Unable to load tools.');
+      setHasMore(false);
+    } finally {
+      setLoading(false);
+      setLoadingMore(false);
+    }
+  };
+
+  const isValidUrl = (value) => {
+    try {
+      return Boolean(new URL(value));
+    } catch {
+      return false;
+    }
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
 
+    const trimmedName = formData.name.trim();
+    const trimmedLink = formData.link.trim();
+    const trimmedCategory = formData.category.trim();
+    const trimmedTags = formData.tags.trim();
+
+    if (!trimmedName || !trimmedLink || !trimmedCategory) {
+      setError('Name, link, and category are required.');
+      return;
+    }
+
+    if (!isValidUrl(trimmedLink)) {
+      setError('Please enter a valid URL.');
+      return;
+    }
+
     const payload = {
-      ...formData,
-      tags: formData.tags
+      name: trimmedName,
+      link: trimmedLink,
+      category: trimmedCategory,
+      tags: trimmedTags
         .split(',')
-        .map((t) => t.trim())
+        .map((tag) => tag.trim())
         .filter(Boolean),
+      icon: formData.icon.trim() || null,
     };
 
-    try {
-      const res = await axios.post(`${API_BASE}/api/tools`, payload);
-      const newTool = res.data;
-      setTools((prev) => [newTool, ...prev]);
-      setFormData({ name: '', link: '', category: '', tags: '', icon: '' });
-      setActiveCategory('All');
-      setSearch('');
-    } catch (err) {
-      console.error(err);
-      setError(err.response?.data?.message || 'Failed to add tool.');
+    const { data, error: insertError } = await supabase
+      .from('tools')
+      .insert(payload)
+      .select()
+      .single();
+
+    if (insertError) {
+      console.error(insertError);
+      const duplicate = insertError.code === '23505' || insertError.details?.includes('duplicate');
+      setError(
+        duplicate
+          ? 'A tool with that name and link already exists.'
+          : insertError.message || 'Failed to add tool.'
+      );
+      return;
+    }
+
+    setTools((prev) => [normalizeTool(data), ...prev]);
+    if (payload.category && !categories.includes(payload.category)) {
+      setCategories((prev) => [...prev, payload.category].sort());
+    }
+
+    setCategoryCounts((prev) => ({
+      ...prev,
+      [payload.category]: (prev[payload.category] ?? 0) + 1,
+    }));
+
+    setFormData({ name: '', link: '', category: '', tags: '', icon: '' });
+  };
+
+  const handleLoadMore = () => {
+    if (!loadingMore && hasMore) {
+      fetchTools();
     }
   };
 
@@ -90,13 +202,12 @@ export default function App() {
             <span className="w-3 h-3 rounded-full bg-red-500 animate-pulse" />
             <div>
               <p className="text-xs text-neutral-500">Backend status</p>
-              <p className="text-sm text-white">Connected</p>
+              <p className="text-sm text-white">Supabase</p>
             </div>
           </div>
         </header>
 
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
-          {/* Sidebar */}
           <aside className="bg-black border border-neutral-800 rounded-3xl p-5 lg:col-span-1 h-full sticky top-6 self-start shadow-md space-y-2 transition-all duration-300">
             <div className="flex items-center justify-between mb-3">
               <h2 className="text-lg font-semibold text-white">Categories</h2>
@@ -116,7 +227,9 @@ export default function App() {
                   <div className="flex items-center justify-between">
                     <span className="font-medium">{cat}</span>
                     {cat !== 'All' && (
-                      <span className="text-xs text-neutral-500">{tools.filter((t) => t.category === cat).length}</span>
+                      <span className="text-xs text-neutral-500">
+                        {categoryCounts[cat] ?? tools.filter((t) => t.category === cat).length}
+                      </span>
                     )}
                   </div>
                 </button>
@@ -124,7 +237,6 @@ export default function App() {
             </div>
           </aside>
 
-          {/* Main content */}
           <main className="lg:col-span-3 space-y-8">
             <div className="bg-neutral-900/60 border border-neutral-800 rounded-3xl p-5 flex flex-col gap-4 shadow-md transition-all duration-300 ease-out">
               <div className="flex flex-col md:flex-row md:items-center gap-3">
@@ -135,15 +247,15 @@ export default function App() {
                       type="text"
                       value={search}
                       onChange={(e) => setSearch(e.target.value)}
-                      placeholder="Search by name or tag..."
+                      placeholder="Search by name..."
                       className="w-full bg-neutral-900 border border-neutral-800 rounded-2xl px-4 py-3 focus:outline-none focus:border-red-500 focus:ring-1 focus:ring-red-500/30 transition-all duration-200 text-white placeholder:text-neutral-500"
                     />
                     <span className="absolute right-4 top-3 text-neutral-600">⌘K</span>
                   </div>
                 </div>
                 <div className="grid grid-cols-2 gap-3">
-                  <StatCard label="Total tools" value={tools.length} />
-                  <StatCard label="Filtered" value={filtered.length} />
+                  <StatCard label="Loaded" value={tools.length} />
+                  <StatCard label="Page size" value={PAGE_SIZE} />
                 </div>
               </div>
               {error && <p className="text-sm text-red-500">{error}</p>}
@@ -153,12 +265,24 @@ export default function App() {
               {loading ? (
                 <LoadingSkeleton />
               ) : (
-                filtered.map((tool) => <ToolCard key={tool._id || tool.name} tool={tool} />)
+                tools.map((tool) => <ToolCard key={tool.id ?? tool.link} tool={tool} />)
               )}
-              {!loading && filtered.length === 0 && (
+              {!loading && tools.length === 0 && (
                 <div className="col-span-full text-center text-slate-400">No tools match that search.</div>
               )}
             </section>
+
+            {hasMore && (
+              <div className="text-center">
+                <button
+                  onClick={handleLoadMore}
+                  disabled={loadingMore}
+                  className="inline-flex items-center justify-center rounded-2xl bg-red-500 px-6 py-3 text-sm font-semibold text-white transition hover:bg-red-600 disabled:cursor-not-allowed disabled:bg-neutral-700"
+                >
+                  {loadingMore ? 'Loading more…' : 'Load more'}
+                </button>
+              </div>
+            )}
 
             <section className="bg-neutral-900/60 border border-neutral-800 rounded-3xl p-5 shadow-md transition-all duration-300 ease-out">
               <h3 className="text-xl font-semibold mb-4 text-white">Add a tool</h3>

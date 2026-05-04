@@ -1,0 +1,3258 @@
+[
+  {
+    "name": "ChatGPT",
+    "link": "https://chat.openai.com",
+    "category": "Chat",
+    "tags": [
+      "chatbot",
+      "assistant",
+      "generative"
+    ],
+    "icon": "https://logo.clearbit.com/chat.openai.com"
+  },
+  {
+    "name": "Claude",
+    "link": "https://claude.ai",
+    "category": "Chat",
+    "tags": [
+      "assistant",
+      "chat",
+      "llm"
+    ],
+    "icon": "https://logo.clearbit.com/claude.ai"
+  },
+  {
+    "name": "Gemini",
+    "link": "https://gemini.google.com",
+    "category": "Chat",
+    "tags": [
+      "google",
+      "assistant",
+      "chat"
+    ],
+    "icon": "https://logo.clearbit.com/gemini.google.com"
+  },
+  {
+    "name": "Bard",
+    "link": "https://bard.google.com",
+    "category": "Chat",
+    "tags": [
+      "search",
+      "assistant",
+      "google"
+    ],
+    "icon": "https://logo.clearbit.com/bard.google.com"
+  },
+  {
+    "name": "Bing Chat",
+    "link": "https://bing.com/chat",
+    "category": "Chat",
+    "tags": [
+      "search",
+      "assistant",
+      "microsoft"
+    ],
+    "icon": "https://logo.clearbit.com/bing.com"
+  },
+  {
+    "name": "Poe",
+    "link": "https://poe.com",
+    "category": "Chat",
+    "tags": [
+      "multi-model",
+      "chat",
+      "qa"
+    ],
+    "icon": "https://logo.clearbit.com/poe.com"
+  },
+  {
+    "name": "YouChat",
+    "link": "https://you.com/chat",
+    "category": "Chat",
+    "tags": [
+      "search",
+      "chat",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/you.com"
+  },
+  {
+    "name": "Perplexity Chat",
+    "link": "https://perplexity.ai/chat",
+    "category": "Chat",
+    "tags": [
+      "qa",
+      "search",
+      "assistant"
+    ],
+    "icon": "https://logo.clearbit.com/perplexity.ai"
+  },
+  {
+    "name": "Character AI",
+    "link": "https://character.ai",
+    "category": "Chat",
+    "tags": [
+      "story",
+      "characters",
+      "conversation"
+    ],
+    "icon": "https://logo.clearbit.com/character.ai"
+  },
+  {
+    "name": "Replika",
+    "link": "https://replika.ai",
+    "category": "Chat",
+    "tags": [
+      "companionship",
+      "chatbot",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/replika.ai"
+  },
+  {
+    "name": "Chai",
+    "link": "https://chai.ml",
+    "category": "Chat",
+    "tags": [
+      "chatbot",
+      "community",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/chai.ml"
+  },
+  {
+    "name": "Jasper Chat",
+    "link": "https://jasper.ai/chat",
+    "category": "Chat",
+    "tags": [
+      "marketing",
+      "assistant",
+      "copy"
+    ],
+    "icon": "https://logo.clearbit.com/jasper.ai"
+  },
+  {
+    "name": "ChatSonic",
+    "link": "https://writesonic.com/chat",
+    "category": "Chat",
+    "tags": [
+      "chatbot",
+      "writing",
+      "assistant"
+    ],
+    "icon": "https://logo.clearbit.com/writesonic.com"
+  },
+  {
+    "name": "OpenAI Playground",
+    "link": "https://platform.openai.com/playground",
+    "category": "Chat",
+    "tags": [
+      "developer",
+      "api",
+      "experimentation"
+    ],
+    "icon": "https://logo.clearbit.com/platform.openai.com"
+  },
+  {
+    "name": "HuggingChat",
+    "link": "https://huggingface.co/chat",
+    "category": "Chat",
+    "tags": [
+      "open-source",
+      "chat",
+      "llm"
+    ],
+    "icon": "https://logo.clearbit.com/huggingface.co"
+  },
+  {
+    "name": "Pi AI",
+    "link": "https://pi.ai",
+    "category": "Chat",
+    "tags": [
+      "personal",
+      "assistant",
+      "chat"
+    ],
+    "icon": "https://logo.clearbit.com/pi.ai"
+  },
+  {
+    "name": "AI Dungeon",
+    "link": "https://aidungeon.io",
+    "category": "Chat",
+    "tags": [
+      "story",
+      "game",
+      "narrative"
+    ],
+    "icon": "https://logo.clearbit.com/aidungeon.io"
+  },
+  {
+    "name": "Botpress Cloud",
+    "link": "https://botpress.com",
+    "category": "Chat",
+    "tags": [
+      "conversational",
+      "bots",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/botpress.com"
+  },
+  {
+    "name": "Landbot",
+    "link": "https://landbot.io",
+    "category": "Chat",
+    "tags": [
+      "chatbot",
+      "no-code",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/landbot.io"
+  },
+  {
+    "name": "Tidio AI",
+    "link": "https://tidio.com/ai",
+    "category": "Chat",
+    "tags": [
+      "support",
+      "chatbot",
+      "customer"
+    ],
+    "icon": "https://logo.clearbit.com/tidio.com"
+  },
+  {
+    "name": "Flowise",
+    "link": "https://flowiseai.com",
+    "category": "Chat",
+    "tags": [
+      "workflow",
+      "chatbot",
+      "builder"
+    ],
+    "icon": "https://logo.clearbit.com/flowiseai.com"
+  },
+  {
+    "name": "SnatchBot",
+    "link": "https://snatchbot.me",
+    "category": "Chat",
+    "tags": [
+      "chatbots",
+      "automation",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/snatchbot.me"
+  },
+  {
+    "name": "Dialogflow",
+    "link": "https://cloud.google.com/dialogflow",
+    "category": "Chat",
+    "tags": [
+      "conversation",
+      "nlp",
+      "platform"
+    ],
+    "icon": "https://logo.clearbit.com/cloud.google.com"
+  },
+  {
+    "name": "Rasa",
+    "link": "https://rasa.com",
+    "category": "Chat",
+    "tags": [
+      "open-source",
+      "bots",
+      "NLP"
+    ],
+    "icon": "https://logo.clearbit.com/rasa.com"
+  },
+  {
+    "name": "Drift AI",
+    "link": "https://drift.com",
+    "category": "Chat",
+    "tags": [
+      "sales",
+      "bot",
+      "conversational"
+    ],
+    "icon": "https://logo.clearbit.com/drift.com"
+  },
+  {
+    "name": "Intercom AI",
+    "link": "https://intercom.com",
+    "category": "Chat",
+    "tags": [
+      "support",
+      "messaging",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/intercom.com"
+  },
+  {
+    "name": "ManyChat",
+    "link": "https://manychat.com",
+    "category": "Chat",
+    "tags": [
+      "marketing",
+      "chatbot",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/manychat.com"
+  },
+  {
+    "name": "LivePerson",
+    "link": "https://liveperson.com",
+    "category": "Chat",
+    "tags": [
+      "conversational",
+      "customer",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/liveperson.com"
+  },
+  {
+    "name": "Cognigy",
+    "link": "https://cognigy.com",
+    "category": "Chat",
+    "tags": [
+      "enterprise",
+      "bot",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/cognigy.com"
+  },
+  {
+    "name": "Botium",
+    "link": "https://botium.ai",
+    "category": "Chat",
+    "tags": [
+      "testing",
+      "bots",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/botium.ai"
+  },
+  {
+    "name": "Midjourney",
+    "link": "https://www.midjourney.com",
+    "category": "Image",
+    "tags": [
+      "generative",
+      "art",
+      "AI"
+    ],
+    "icon": "https://logo.clearbit.com/www.midjourney.com"
+  },
+  {
+    "name": "DALL\u00b7E",
+    "link": "https://labs.openai.com",
+    "category": "Image",
+    "tags": [
+      "image",
+      "generation",
+      "creative"
+    ],
+    "icon": "https://logo.clearbit.com/labs.openai.com"
+  },
+  {
+    "name": "Stable Diffusion",
+    "link": "https://stability.ai",
+    "category": "Image",
+    "tags": [
+      "open-source",
+      "image",
+      "creation"
+    ],
+    "icon": "https://logo.clearbit.com/stability.ai"
+  },
+  {
+    "name": "Adobe Firefly",
+    "link": "https://firefly.adobe.com",
+    "category": "Image",
+    "tags": [
+      "creative",
+      "design",
+      "generation"
+    ],
+    "icon": "https://logo.clearbit.com/firefly.adobe.com"
+  },
+  {
+    "name": "Canva",
+    "link": "https://www.canva.com",
+    "category": "Image",
+    "tags": [
+      "templates",
+      "design",
+      "graphics"
+    ],
+    "icon": "https://logo.clearbit.com/www.canva.com"
+  },
+  {
+    "name": "Runway",
+    "link": "https://runwayml.com",
+    "category": "Image",
+    "tags": [
+      "generation",
+      "studio",
+      "creative"
+    ],
+    "icon": "https://logo.clearbit.com/runwayml.com"
+  },
+  {
+    "name": "DreamStudio",
+    "link": "https://dreamstudio.ai",
+    "category": "Image",
+    "tags": [
+      "text-to-image",
+      "ai",
+      "art"
+    ],
+    "icon": "https://logo.clearbit.com/dreamstudio.ai"
+  },
+  {
+    "name": "NightCafe",
+    "link": "https://creator.nightcafe.studio",
+    "category": "Image",
+    "tags": [
+      "art",
+      "ai",
+      "images"
+    ],
+    "icon": "https://logo.clearbit.com/creator.nightcafe.studio"
+  },
+  {
+    "name": "Fotor",
+    "link": "https://www.fotor.com",
+    "category": "Image",
+    "tags": [
+      "editing",
+      "design",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.fotor.com"
+  },
+  {
+    "name": "Pixlr",
+    "link": "https://pixlr.com",
+    "category": "Image",
+    "tags": [
+      "photo",
+      "editor",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/pixlr.com"
+  },
+  {
+    "name": "Lensa",
+    "link": "https://lensa.ai",
+    "category": "Image",
+    "tags": [
+      "photo",
+      "portrait",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/lensa.ai"
+  },
+  {
+    "name": "Artbreeder",
+    "link": "https://www.artbreeder.com",
+    "category": "Image",
+    "tags": [
+      "collage",
+      "creativity",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.artbreeder.com"
+  },
+  {
+    "name": "DeepAI Image Generator",
+    "link": "https://deepai.org/machine-learning-model/text2img",
+    "category": "Image",
+    "tags": [
+      "api",
+      "generation",
+      "creative"
+    ],
+    "icon": "https://logo.clearbit.com/deepai.org"
+  },
+  {
+    "name": "Hotpot AI",
+    "link": "https://hotpot.ai",
+    "category": "Image",
+    "tags": [
+      "design",
+      "art",
+      "templates"
+    ],
+    "icon": "https://logo.clearbit.com/hotpot.ai"
+  },
+  {
+    "name": "VanceAI",
+    "link": "https://vanceai.com",
+    "category": "Image",
+    "tags": [
+      "enhancement",
+      "photo",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/vanceai.com"
+  },
+  {
+    "name": "Picsart",
+    "link": "https://picsart.com",
+    "category": "Image",
+    "tags": [
+      "photo",
+      "editor",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/picsart.com"
+  },
+  {
+    "name": "Remove.bg",
+    "link": "https://www.remove.bg",
+    "category": "Image",
+    "tags": [
+      "background",
+      "remove",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.remove.bg"
+  },
+  {
+    "name": "Clipdrop",
+    "link": "https://clipdrop.co",
+    "category": "Image",
+    "tags": [
+      "capture",
+      "edit",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/clipdrop.co"
+  },
+  {
+    "name": "Photoleap",
+    "link": "https://www.lightricks.com/photoleap",
+    "category": "Image",
+    "tags": [
+      "photo",
+      "editor",
+      "mobile"
+    ],
+    "icon": "https://logo.clearbit.com/www.lightricks.com"
+  },
+  {
+    "name": "Designify",
+    "link": "https://designify.com",
+    "category": "Image",
+    "tags": [
+      "automated",
+      "design",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/designify.com"
+  },
+  {
+    "name": "Icons8 AI",
+    "link": "https://icons8.com",
+    "category": "Image",
+    "tags": [
+      "icons",
+      "design",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/icons8.com"
+  },
+  {
+    "name": "Brandmark",
+    "link": "https://brandmark.io",
+    "category": "Image",
+    "tags": [
+      "logo",
+      "branding",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/brandmark.io"
+  },
+  {
+    "name": "LogoMaster",
+    "link": "https://logomaster.ai",
+    "category": "Image",
+    "tags": [
+      "logo",
+      "design",
+      "branding"
+    ],
+    "icon": "https://logo.clearbit.com/logomaster.ai"
+  },
+  {
+    "name": "AutoDraw",
+    "link": "https://www.autodraw.com",
+    "category": "Image",
+    "tags": [
+      "sketch",
+      "illustration",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.autodraw.com"
+  },
+  {
+    "name": "Pixelcut",
+    "link": "https://pixelcut.ai",
+    "category": "Image",
+    "tags": [
+      "ecommerce",
+      "photo",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/pixelcut.ai"
+  },
+  {
+    "name": "Generated Photos",
+    "link": "https://generated.photos",
+    "category": "Image",
+    "tags": [
+      "faces",
+      "ai",
+      "avatars"
+    ],
+    "icon": "https://logo.clearbit.com/generated.photos"
+  },
+  {
+    "name": "Pika Labs",
+    "link": "https://pika.art",
+    "category": "Image",
+    "tags": [
+      "image",
+      "generation",
+      "creative"
+    ],
+    "icon": "https://logo.clearbit.com/pika.art"
+  },
+  {
+    "name": "Krea",
+    "link": "https://www.krea.ai",
+    "category": "Image",
+    "tags": [
+      "ai",
+      "visuals",
+      "generation"
+    ],
+    "icon": "https://logo.clearbit.com/www.krea.ai"
+  },
+  {
+    "name": "PhotoRoom",
+    "link": "https://www.photoroom.com",
+    "category": "Image",
+    "tags": [
+      "background",
+      "photo",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.photoroom.com"
+  },
+  {
+    "name": "Designs.ai",
+    "link": "https://designs.ai",
+    "category": "Image",
+    "tags": [
+      "branding",
+      "visual",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/designs.ai"
+  },
+  {
+    "name": "Synthesia",
+    "link": "https://www.synthesia.io",
+    "category": "Video",
+    "tags": [
+      "avatar",
+      "video",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.synthesia.io"
+  },
+  {
+    "name": "Pictory",
+    "link": "https://pictory.ai",
+    "category": "Video",
+    "tags": [
+      "script",
+      "video",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/pictory.ai"
+  },
+  {
+    "name": "Descript",
+    "link": "https://www.descript.com",
+    "category": "Video",
+    "tags": [
+      "editing",
+      "audio",
+      "transcription"
+    ],
+    "icon": "https://logo.clearbit.com/www.descript.com"
+  },
+  {
+    "name": "InVideo",
+    "link": "https://invideo.io",
+    "category": "Video",
+    "tags": [
+      "video",
+      "templates",
+      "marketing"
+    ],
+    "icon": "https://logo.clearbit.com/invideo.io"
+  },
+  {
+    "name": "Veed",
+    "link": "https://www.veed.io",
+    "category": "Video",
+    "tags": [
+      "editor",
+      "subtitles",
+      "social"
+    ],
+    "icon": "https://logo.clearbit.com/www.veed.io"
+  },
+  {
+    "name": "Kapwing",
+    "link": "https://www.kapwing.com",
+    "category": "Video",
+    "tags": [
+      "editing",
+      "memes",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.kapwing.com"
+  },
+  {
+    "name": "Lumen5",
+    "link": "https://lumen5.com",
+    "category": "Video",
+    "tags": [
+      "social",
+      "marketing",
+      "video"
+    ],
+    "icon": "https://logo.clearbit.com/lumen5.com"
+  },
+  {
+    "name": "Wisecut",
+    "link": "https://www.wisecut.video",
+    "category": "Video",
+    "tags": [
+      "editing",
+      "shorts",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/www.wisecut.video"
+  },
+  {
+    "name": "Clipchamp",
+    "link": "https://www.clipchamp.com",
+    "category": "Video",
+    "tags": [
+      "editor",
+      "microsoft",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.clipchamp.com"
+  },
+  {
+    "name": "Colossyan",
+    "link": "https://www.colossyan.com",
+    "category": "Video",
+    "tags": [
+      "actors",
+      "video",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.colossyan.com"
+  },
+  {
+    "name": "HeyGen",
+    "link": "https://www.heygen.com",
+    "category": "Video",
+    "tags": [
+      "talking",
+      "avatar",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.heygen.com"
+  },
+  {
+    "name": "Rephrase.ai",
+    "link": "https://www.rephrase.ai",
+    "category": "Video",
+    "tags": [
+      "personalization",
+      "ads",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.rephrase.ai"
+  },
+  {
+    "name": "Synthesys",
+    "link": "https://www.synthesys.io",
+    "category": "Video",
+    "tags": [
+      "voice",
+      "video",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.synthesys.io"
+  },
+  {
+    "name": "DeepBrain AI",
+    "link": "https://www.deepbrain.io",
+    "category": "Video",
+    "tags": [
+      "human-like",
+      "avatar",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.deepbrain.io"
+  },
+  {
+    "name": "Elai.io",
+    "link": "https://www.elai.io",
+    "category": "Video",
+    "tags": [
+      "presentations",
+      "ai",
+      "video"
+    ],
+    "icon": "https://logo.clearbit.com/www.elai.io"
+  },
+  {
+    "name": "GliaCloud",
+    "link": "https://gliacloud.com",
+    "category": "Video",
+    "tags": [
+      "automation",
+      "editing",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/gliacloud.com"
+  },
+  {
+    "name": "Magisto",
+    "link": "https://www.magisto.com",
+    "category": "Video",
+    "tags": [
+      "stories",
+      "editing",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.magisto.com"
+  },
+  {
+    "name": "Animoto",
+    "link": "https://animoto.com",
+    "category": "Video",
+    "tags": [
+      "slideshow",
+      "marketing",
+      "video"
+    ],
+    "icon": "https://logo.clearbit.com/animoto.com"
+  },
+  {
+    "name": "Fliki",
+    "link": "https://fliki.ai",
+    "category": "Video",
+    "tags": [
+      "text-to-speech",
+      "video",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/fliki.ai"
+  },
+  {
+    "name": "Movio",
+    "link": "https://movio.la",
+    "category": "Video",
+    "tags": [
+      "ai",
+      "presenter",
+      "video"
+    ],
+    "icon": "https://logo.clearbit.com/movio.la"
+  },
+  {
+    "name": "Reface AI",
+    "link": "https://hey.reface.ai",
+    "category": "Video",
+    "tags": [
+      "face-swap",
+      "deepfake",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/hey.reface.ai"
+  },
+  {
+    "name": "Hour One",
+    "link": "https://www.hourone.ai",
+    "category": "Video",
+    "tags": [
+      "virtual",
+      "presenter",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.hourone.ai"
+  },
+  {
+    "name": "FlexClip",
+    "link": "https://www.flexclip.com",
+    "category": "Video",
+    "tags": [
+      "editor",
+      "templates",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.flexclip.com"
+  },
+  {
+    "name": "Vidyo AI",
+    "link": "https://vidyo.ai",
+    "category": "Video",
+    "tags": [
+      "summaries",
+      "meetings",
+      "video"
+    ],
+    "icon": "https://logo.clearbit.com/vidyo.ai"
+  },
+  {
+    "name": "Wibbitz",
+    "link": "https://www.wibbitz.com",
+    "category": "Video",
+    "tags": [
+      "shorts",
+      "creator",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/www.wibbitz.com"
+  },
+  {
+    "name": "WeVideo",
+    "link": "https://www.wevideo.com",
+    "category": "Video",
+    "tags": [
+      "editor",
+      "cloud",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.wevideo.com"
+  },
+  {
+    "name": "Biteable",
+    "link": "https://www.biteable.com",
+    "category": "Video",
+    "tags": [
+      "ads",
+      "content",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.biteable.com"
+  },
+  {
+    "name": "Renderforest",
+    "link": "https://renderforest.com",
+    "category": "Video",
+    "tags": [
+      "branding",
+      "video",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/renderforest.com"
+  },
+  {
+    "name": "Castmagic",
+    "link": "https://castmagic.io",
+    "category": "Video",
+    "tags": [
+      "meetings",
+      "summaries",
+      "video"
+    ],
+    "icon": "https://logo.clearbit.com/castmagic.io"
+  },
+  {
+    "name": "Kaiber",
+    "link": "https://kaiber.ai",
+    "category": "Video",
+    "tags": [
+      "generation",
+      "animation",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/kaiber.ai"
+  },
+  {
+    "name": "ElevenLabs",
+    "link": "https://elevenlabs.io",
+    "category": "Audio",
+    "tags": [
+      "voice",
+      "tts",
+      "narration"
+    ],
+    "icon": "https://logo.clearbit.com/elevenlabs.io"
+  },
+  {
+    "name": "Murf AI",
+    "link": "https://murf.ai",
+    "category": "Audio",
+    "tags": [
+      "voice",
+      "studio",
+      "tts"
+    ],
+    "icon": "https://logo.clearbit.com/murf.ai"
+  },
+  {
+    "name": "Play.ht",
+    "link": "https://play.ht",
+    "category": "Audio",
+    "tags": [
+      "voice",
+      "podcast",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/play.ht"
+  },
+  {
+    "name": "Resemble AI",
+    "link": "https://www.resemble.ai",
+    "category": "Audio",
+    "tags": [
+      "voice",
+      "clone",
+      "tts"
+    ],
+    "icon": "https://logo.clearbit.com/www.resemble.ai"
+  },
+  {
+    "name": "Lovo AI",
+    "link": "https://lovo.ai",
+    "category": "Audio",
+    "tags": [
+      "voiceover",
+      "tts",
+      "studio"
+    ],
+    "icon": "https://logo.clearbit.com/lovo.ai"
+  },
+  {
+    "name": "Sonix",
+    "link": "https://sonix.ai",
+    "category": "Audio",
+    "tags": [
+      "transcription",
+      "audio",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/sonix.ai"
+  },
+  {
+    "name": "Podcastle",
+    "link": "https://podcastle.ai",
+    "category": "Audio",
+    "tags": [
+      "podcast",
+      "editing",
+      "voice"
+    ],
+    "icon": "https://logo.clearbit.com/podcastle.ai"
+  },
+  {
+    "name": "AIVA",
+    "link": "https://www.aiva.ai",
+    "category": "Audio",
+    "tags": [
+      "music",
+      "composition",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.aiva.ai"
+  },
+  {
+    "name": "Voicemaker",
+    "link": "https://voicemaker.in",
+    "category": "Audio",
+    "tags": [
+      "tts",
+      "voice",
+      "online"
+    ],
+    "icon": "https://logo.clearbit.com/voicemaker.in"
+  },
+  {
+    "name": "WellSaid Labs",
+    "link": "https://www.wellsaidlabs.com",
+    "category": "Audio",
+    "tags": [
+      "voice",
+      "broadcast",
+      "tts"
+    ],
+    "icon": "https://logo.clearbit.com/www.wellsaidlabs.com"
+  },
+  {
+    "name": "Speechify",
+    "link": "https://speechify.com",
+    "category": "Audio",
+    "tags": [
+      "reading",
+      "tts",
+      "accessibility"
+    ],
+    "icon": "https://logo.clearbit.com/speechify.com"
+  },
+  {
+    "name": "Cleanvoice AI",
+    "link": "https://cleanvoice.ai",
+    "category": "Audio",
+    "tags": [
+      "podcast",
+      "editing",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/cleanvoice.ai"
+  },
+  {
+    "name": "Coqui",
+    "link": "https://coqui.ai",
+    "category": "Audio",
+    "tags": [
+      "voice",
+      "open-source",
+      "tts"
+    ],
+    "icon": "https://logo.clearbit.com/coqui.ai"
+  },
+  {
+    "name": "Voice AI",
+    "link": "https://voice.ai",
+    "category": "Audio",
+    "tags": [
+      "avatars",
+      "voice",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/voice.ai"
+  },
+  {
+    "name": "Voicemod",
+    "link": "https://voicemod.net",
+    "category": "Audio",
+    "tags": [
+      "voice",
+      "effects",
+      "streaming"
+    ],
+    "icon": "https://logo.clearbit.com/voicemod.net"
+  },
+  {
+    "name": "Uberduck",
+    "link": "https://uberduck.ai",
+    "category": "Audio",
+    "tags": [
+      "voice",
+      "synthesis",
+      "characters"
+    ],
+    "icon": "https://logo.clearbit.com/uberduck.ai"
+  },
+  {
+    "name": "Soundraw",
+    "link": "https://soundraw.io",
+    "category": "Audio",
+    "tags": [
+      "music",
+      "ai",
+      "composition"
+    ],
+    "icon": "https://logo.clearbit.com/soundraw.io"
+  },
+  {
+    "name": "Talkia",
+    "link": "https://talkia.com",
+    "category": "Audio",
+    "tags": [
+      "voiceover",
+      "tts",
+      "marketing"
+    ],
+    "icon": "https://logo.clearbit.com/talkia.com"
+  },
+  {
+    "name": "Speak AI",
+    "link": "https://speakai.co",
+    "category": "Audio",
+    "tags": [
+      "analysis",
+      "transcription",
+      "insights"
+    ],
+    "icon": "https://logo.clearbit.com/speakai.co"
+  },
+  {
+    "name": "Respeecher",
+    "link": "https://respeecher.com",
+    "category": "Audio",
+    "tags": [
+      "voice",
+      "replication",
+      "studio"
+    ],
+    "icon": "https://logo.clearbit.com/respeecher.com"
+  },
+  {
+    "name": "Dub.ai",
+    "link": "https://dub.ai",
+    "category": "Audio",
+    "tags": [
+      "translation",
+      "voice",
+      "localization"
+    ],
+    "icon": "https://logo.clearbit.com/dub.ai"
+  },
+  {
+    "name": "Bubblebee",
+    "link": "https://bubblebee.ai",
+    "category": "Audio",
+    "tags": [
+      "scripts",
+      "voice",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/bubblebee.ai"
+  },
+  {
+    "name": "Mubert",
+    "link": "https://mubert.com",
+    "category": "Audio",
+    "tags": [
+      "music",
+      "streaming",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/mubert.com"
+  },
+  {
+    "name": "Ecrett Music",
+    "link": "https://ecrettmusic.com",
+    "category": "Audio",
+    "tags": [
+      "music",
+      "soundtrack",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/ecrettmusic.com"
+  },
+  {
+    "name": "Voicepods",
+    "link": "https://voicepods.com",
+    "category": "Audio",
+    "tags": [
+      "tts",
+      "audio",
+      "publishing"
+    ],
+    "icon": "https://logo.clearbit.com/voicepods.com"
+  },
+  {
+    "name": "Podcast.ai",
+    "link": "https://podcast.ai",
+    "category": "Audio",
+    "tags": [
+      "podcast",
+      "ai",
+      "creation"
+    ],
+    "icon": "https://logo.clearbit.com/podcast.ai"
+  },
+  {
+    "name": "Aflorithmic",
+    "link": "https://aflorithmic.ai",
+    "category": "Audio",
+    "tags": [
+      "voice",
+      "branding",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/aflorithmic.ai"
+  },
+  {
+    "name": "Speechmatics",
+    "link": "https://speechmatics.com",
+    "category": "Audio",
+    "tags": [
+      "speech",
+      "transcription",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/speechmatics.com"
+  },
+  {
+    "name": "Amberscript",
+    "link": "https://amberscript.com",
+    "category": "Audio",
+    "tags": [
+      "speech",
+      "transcription",
+      "subtitles"
+    ],
+    "icon": "https://logo.clearbit.com/amberscript.com"
+  },
+  {
+    "name": "Speechki",
+    "link": "https://speechki.org",
+    "category": "Audio",
+    "tags": [
+      "tts",
+      "audio",
+      "publishing"
+    ],
+    "icon": "https://logo.clearbit.com/speechki.org"
+  },
+  {
+    "name": "GitHub Copilot",
+    "link": "https://github.com/features/copilot",
+    "category": "Coding",
+    "tags": [
+      "autocomplete",
+      "ide",
+      "assistant"
+    ],
+    "icon": "https://logo.clearbit.com/github.com"
+  },
+  {
+    "name": "Tabnine",
+    "link": "https://www.tabnine.com",
+    "category": "Coding",
+    "tags": [
+      "autocomplete",
+      "ai",
+      "code"
+    ],
+    "icon": "https://logo.clearbit.com/www.tabnine.com"
+  },
+  {
+    "name": "Codeium",
+    "link": "https://codeium.com",
+    "category": "Coding",
+    "tags": [
+      "assistant",
+      "completion",
+      "code"
+    ],
+    "icon": "https://logo.clearbit.com/codeium.com"
+  },
+  {
+    "name": "Replit Ghostwriter",
+    "link": "https://replit.com/ghostwriter",
+    "category": "Coding",
+    "tags": [
+      "assistant",
+      "code",
+      "browser"
+    ],
+    "icon": "https://logo.clearbit.com/replit.com"
+  },
+  {
+    "name": "AWS CodeWhisperer",
+    "link": "https://aws.amazon.com/codewhisperer",
+    "category": "Coding",
+    "tags": [
+      "code",
+      "assistant",
+      "aws"
+    ],
+    "icon": "https://logo.clearbit.com/aws.amazon.com"
+  },
+  {
+    "name": "Sourcegraph Cody",
+    "link": "https://sourcegraph.com/cody",
+    "category": "Coding",
+    "tags": [
+      "search",
+      "assistant",
+      "code"
+    ],
+    "icon": "https://logo.clearbit.com/sourcegraph.com"
+  },
+  {
+    "name": "Codium AI",
+    "link": "https://www.codium.ai",
+    "category": "Coding",
+    "tags": [
+      "tests",
+      "analysis",
+      "code"
+    ],
+    "icon": "https://logo.clearbit.com/www.codium.ai"
+  },
+  {
+    "name": "Bito AI",
+    "link": "https://www.bito.ai",
+    "category": "Coding",
+    "tags": [
+      "assistant",
+      "pull request",
+      "code"
+    ],
+    "icon": "https://logo.clearbit.com/www.bito.ai"
+  },
+  {
+    "name": "Mutable AI",
+    "link": "https://mutable.ai",
+    "category": "Coding",
+    "tags": [
+      "code",
+      "data",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/mutable.ai"
+  },
+  {
+    "name": "Kite",
+    "link": "https://www.kite.com",
+    "category": "Coding",
+    "tags": [
+      "autocomplete",
+      "editor",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.kite.com"
+  },
+  {
+    "name": "Cursor",
+    "link": "https://www.cursor.so",
+    "category": "Coding",
+    "tags": [
+      "assistant",
+      "code",
+      "navigation"
+    ],
+    "icon": "https://logo.clearbit.com/www.cursor.so"
+  },
+  {
+    "name": "AskCodi",
+    "link": "https://www.askcodi.com",
+    "category": "Coding",
+    "tags": [
+      "assistant",
+      "qa",
+      "code"
+    ],
+    "icon": "https://logo.clearbit.com/www.askcodi.com"
+  },
+  {
+    "name": "CodeGeeX",
+    "link": "https://codegeex.cn",
+    "category": "Coding",
+    "tags": [
+      "completion",
+      "open-source",
+      "code"
+    ],
+    "icon": "https://logo.clearbit.com/codegeex.cn"
+  },
+  {
+    "name": "SourceAI",
+    "link": "https://sourceai.dev",
+    "category": "Coding",
+    "tags": [
+      "assistant",
+      "generate",
+      "code"
+    ],
+    "icon": "https://logo.clearbit.com/sourceai.dev"
+  },
+  {
+    "name": "Codota",
+    "link": "https://www.codota.com",
+    "category": "Coding",
+    "tags": [
+      "completion",
+      "search",
+      "java"
+    ],
+    "icon": "https://logo.clearbit.com/www.codota.com"
+  },
+  {
+    "name": "Ponicode",
+    "link": "https://www.ponicode.com",
+    "category": "Coding",
+    "tags": [
+      "tests",
+      "ai",
+      "coverage"
+    ],
+    "icon": "https://logo.clearbit.com/www.ponicode.com"
+  },
+  {
+    "name": "CodeSandbox AI",
+    "link": "https://codesandbox.com",
+    "category": "Coding",
+    "tags": [
+      "editor",
+      "sandbox",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/codesandbox.com"
+  },
+  {
+    "name": "Sourcery",
+    "link": "https://www.sourcery.ai",
+    "category": "Coding",
+    "tags": [
+      "refactor",
+      "python",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.sourcery.ai"
+  },
+  {
+    "name": "PolyCoder",
+    "link": "https://polycoder.ai",
+    "category": "Coding",
+    "tags": [
+      "model",
+      "code",
+      "research"
+    ],
+    "icon": "https://logo.clearbit.com/polycoder.ai"
+  },
+  {
+    "name": "Cogram",
+    "link": "https://cogram.com",
+    "category": "Coding",
+    "tags": [
+      "sql",
+      "notebooks",
+      "assistant"
+    ],
+    "icon": "https://logo.clearbit.com/cogram.com"
+  },
+  {
+    "name": "DeepCode",
+    "link": "https://deepcode.ai",
+    "category": "Coding",
+    "tags": [
+      "analysis",
+      "review",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/deepcode.ai"
+  },
+  {
+    "name": "GitHub Copilot Labs",
+    "link": "https://github.com/features/copilot/labs",
+    "category": "Coding",
+    "tags": [
+      "exploration",
+      "ai",
+      "developer"
+    ],
+    "icon": "https://logo.clearbit.com/github.com"
+  },
+  {
+    "name": "Replit AI Magic",
+    "link": "https://replit.com/magic",
+    "category": "Coding",
+    "tags": [
+      "automation",
+      "assistant",
+      "code"
+    ],
+    "icon": "https://logo.clearbit.com/replit.com"
+  },
+  {
+    "name": "Sourcegraph Genie",
+    "link": "https://sourcegraph.com/genie",
+    "category": "Coding",
+    "tags": [
+      "assistant",
+      "chat",
+      "code"
+    ],
+    "icon": "https://logo.clearbit.com/sourcegraph.com"
+  },
+  {
+    "name": "GitHub Codespaces",
+    "link": "https://github.com/features/codespaces",
+    "category": "Coding",
+    "tags": [
+      "cloud",
+      "development",
+      "ide"
+    ],
+    "icon": "https://logo.clearbit.com/github.com"
+  },
+  {
+    "name": "AI2SQL",
+    "link": "https://ai2sql.io",
+    "category": "Coding",
+    "tags": [
+      "sql",
+      "generation",
+      "database"
+    ],
+    "icon": "https://logo.clearbit.com/ai2sql.io"
+  },
+  {
+    "name": "Sider",
+    "link": "https://siderlabs.io",
+    "category": "Coding",
+    "tags": [
+      "review",
+      "analysis",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/siderlabs.io"
+  },
+  {
+    "name": "Codiga",
+    "link": "https://www.codiga.io",
+    "category": "Coding",
+    "tags": [
+      "security",
+      "static",
+      "analysis"
+    ],
+    "icon": "https://logo.clearbit.com/www.codiga.io"
+  },
+  {
+    "name": "DeepSource",
+    "link": "https://deepsource.io",
+    "category": "Coding",
+    "tags": [
+      "quality",
+      "analysis",
+      "ci"
+    ],
+    "icon": "https://logo.clearbit.com/deepsource.io"
+  },
+  {
+    "name": "CodeStream",
+    "link": "https://www.codestream.com",
+    "category": "Coding",
+    "tags": [
+      "collaboration",
+      "review",
+      "code"
+    ],
+    "icon": "https://logo.clearbit.com/www.codestream.com"
+  },
+  {
+    "name": "Notion AI",
+    "link": "https://www.notion.so/product/ai",
+    "category": "Productivity",
+    "tags": [
+      "notes",
+      "assistant",
+      "workflow"
+    ],
+    "icon": "https://logo.clearbit.com/www.notion.so"
+  },
+  {
+    "name": "Otter.ai",
+    "link": "https://otter.ai",
+    "category": "Productivity",
+    "tags": [
+      "transcription",
+      "meetings",
+      "notes"
+    ],
+    "icon": "https://logo.clearbit.com/otter.ai"
+  },
+  {
+    "name": "Fireflies",
+    "link": "https://fireflies.ai",
+    "category": "Productivity",
+    "tags": [
+      "meetings",
+      "notes",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/fireflies.ai"
+  },
+  {
+    "name": "Superhuman",
+    "link": "https://superhuman.com",
+    "category": "Productivity",
+    "tags": [
+      "email",
+      "speed",
+      "workflow"
+    ],
+    "icon": "https://logo.clearbit.com/superhuman.com"
+  },
+  {
+    "name": "Mem AI",
+    "link": "https://get.mem.ai",
+    "category": "Productivity",
+    "tags": [
+      "memory",
+      "notes",
+      "search"
+    ],
+    "icon": "https://logo.clearbit.com/get.mem.ai"
+  },
+  {
+    "name": "ClickUp AI",
+    "link": "https://clickup.com/ai",
+    "category": "Productivity",
+    "tags": [
+      "tasks",
+      "automation",
+      "organization"
+    ],
+    "icon": "https://logo.clearbit.com/clickup.com"
+  },
+  {
+    "name": "Magical",
+    "link": "https://www.getmagical.com",
+    "category": "Productivity",
+    "tags": [
+      "automation",
+      "email",
+      "workflow"
+    ],
+    "icon": "https://logo.clearbit.com/www.getmagical.com"
+  },
+  {
+    "name": "GrammarlyGO",
+    "link": "https://www.grammarly.com/grammarlygo",
+    "category": "Productivity",
+    "tags": [
+      "writing",
+      "grammar",
+      "assistant"
+    ],
+    "icon": "https://logo.clearbit.com/www.grammarly.com"
+  },
+  {
+    "name": "Fathom AI",
+    "link": "https://fathom.video",
+    "category": "Productivity",
+    "tags": [
+      "meetings",
+      "summary",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/fathom.video"
+  },
+  {
+    "name": "Motion AI",
+    "link": "https://www.usemotion.com",
+    "category": "Productivity",
+    "tags": [
+      "planning",
+      "calendar",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/www.usemotion.com"
+  },
+  {
+    "name": "Scribe",
+    "link": "https://scribehow.com",
+    "category": "Productivity",
+    "tags": [
+      "documentation",
+      "workflow",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/scribehow.com"
+  },
+  {
+    "name": "QuillBot",
+    "link": "https://quillbot.com",
+    "category": "Productivity",
+    "tags": [
+      "writing",
+      "paraphrase",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/quillbot.com"
+  },
+  {
+    "name": "Spellbook",
+    "link": "https://spellbook.ai",
+    "category": "Productivity",
+    "tags": [
+      "contracts",
+      "automation",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/spellbook.ai"
+  },
+  {
+    "name": "Zapier AI",
+    "link": "https://zapier.com/ai",
+    "category": "Productivity",
+    "tags": [
+      "automation",
+      "integrations",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/zapier.com"
+  },
+  {
+    "name": "Browse AI",
+    "link": "https://browse.ai",
+    "category": "Productivity",
+    "tags": [
+      "web scraping",
+      "automation",
+      "data"
+    ],
+    "icon": "https://logo.clearbit.com/browse.ai"
+  },
+  {
+    "name": "Taskade AI",
+    "link": "https://www.taskade.com/ai",
+    "category": "Productivity",
+    "tags": [
+      "task management",
+      "collaboration",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.taskade.com"
+  },
+  {
+    "name": "Rewind AI",
+    "link": "https://www.rewind.ai",
+    "category": "Productivity",
+    "tags": [
+      "memory",
+      "search",
+      "video"
+    ],
+    "icon": "https://logo.clearbit.com/www.rewind.ai"
+  },
+  {
+    "name": "Supernormal AI",
+    "link": "https://www.supernormal.com",
+    "category": "Productivity",
+    "tags": [
+      "meetings",
+      "notes",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.supernormal.com"
+  },
+  {
+    "name": "Notable",
+    "link": "https://notable.app",
+    "category": "Productivity",
+    "tags": [
+      "notes",
+      "knowledge",
+      "organization"
+    ],
+    "icon": "https://logo.clearbit.com/notable.app"
+  },
+  {
+    "name": "Tability",
+    "link": "https://tability.io",
+    "category": "Productivity",
+    "tags": [
+      "objectives",
+      "planning",
+      "visualization"
+    ],
+    "icon": "https://logo.clearbit.com/tability.io"
+  },
+  {
+    "name": "Airgram",
+    "link": "https://www.airgram.io",
+    "category": "Productivity",
+    "tags": [
+      "meetings",
+      "transcription",
+      "recording"
+    ],
+    "icon": "https://logo.clearbit.com/www.airgram.io"
+  },
+  {
+    "name": "Fellow",
+    "link": "https://fellow.app",
+    "category": "Productivity",
+    "tags": [
+      "meetings",
+      "collaboration",
+      "agenda"
+    ],
+    "icon": "https://logo.clearbit.com/fellow.app"
+  },
+  {
+    "name": "Reclaim AI",
+    "link": "https://reclaim.ai",
+    "category": "Productivity",
+    "tags": [
+      "calendar",
+      "planning",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/reclaim.ai"
+  },
+  {
+    "name": "Krisp",
+    "link": "https://krisp.ai",
+    "category": "Productivity",
+    "tags": [
+      "noise cancellation",
+      "calls",
+      "audio"
+    ],
+    "icon": "https://logo.clearbit.com/krisp.ai"
+  },
+  {
+    "name": "Raycast AI",
+    "link": "https://www.raycast.com/ai",
+    "category": "Productivity",
+    "tags": [
+      "commands",
+      "search",
+      "workflow"
+    ],
+    "icon": "https://logo.clearbit.com/www.raycast.com"
+  },
+  {
+    "name": "Flowrite",
+    "link": "https://flowrite.com",
+    "category": "Productivity",
+    "tags": [
+      "email",
+      "writing",
+      "assistant"
+    ],
+    "icon": "https://logo.clearbit.com/flowrite.com"
+  },
+  {
+    "name": "x.ai",
+    "link": "https://x.ai",
+    "category": "Productivity",
+    "tags": [
+      "scheduler",
+      "assistant",
+      "meetings"
+    ],
+    "icon": "https://logo.clearbit.com/x.ai"
+  },
+  {
+    "name": "Socratic AI",
+    "link": "https://socratic.org",
+    "category": "Productivity",
+    "tags": [
+      "learning",
+      "homework",
+      "assistant"
+    ],
+    "icon": "https://logo.clearbit.com/socratic.org"
+  },
+  {
+    "name": "Grammarly Checker",
+    "link": "https://www.grammarly.com/grammar-check",
+    "category": "Productivity",
+    "tags": [
+      "writing",
+      "editing",
+      "grammar"
+    ],
+    "icon": "https://logo.clearbit.com/www.grammarly.com"
+  },
+  {
+    "name": "Grammarly Business",
+    "link": "https://www.grammarly.com/business",
+    "category": "Productivity",
+    "tags": [
+      "enterprise",
+      "writing",
+      "collaboration"
+    ],
+    "icon": "https://logo.clearbit.com/www.grammarly.com"
+  },
+  {
+    "name": "Elicit",
+    "link": "https://elicit.org",
+    "category": "Research",
+    "tags": [
+      "papers",
+      "summarization",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/elicit.org"
+  },
+  {
+    "name": "Consensus AI",
+    "link": "https://consensus.app",
+    "category": "Research",
+    "tags": [
+      "search",
+      "insights",
+      "papers"
+    ],
+    "icon": "https://logo.clearbit.com/consensus.app"
+  },
+  {
+    "name": "Humata",
+    "link": "https://www.humata.ai",
+    "category": "Research",
+    "tags": [
+      "documents",
+      "qa",
+      "assistant"
+    ],
+    "icon": "https://logo.clearbit.com/www.humata.ai"
+  },
+  {
+    "name": "Scite AI",
+    "link": "https://scite.ai",
+    "category": "Research",
+    "tags": [
+      "citations",
+      "papers",
+      "analysis"
+    ],
+    "icon": "https://logo.clearbit.com/scite.ai"
+  },
+  {
+    "name": "Connected Papers",
+    "link": "https://www.connectedpapers.com",
+    "category": "Research",
+    "tags": [
+      "graph",
+      "papers",
+      "discovery"
+    ],
+    "icon": "https://logo.clearbit.com/www.connectedpapers.com"
+  },
+  {
+    "name": "Research Rabbit",
+    "link": "https://www.researchrabbit.ai",
+    "category": "Research",
+    "tags": [
+      "papers",
+      "visualization",
+      "discovery"
+    ],
+    "icon": "https://logo.clearbit.com/www.researchrabbit.ai"
+  },
+  {
+    "name": "Semantic Scholar",
+    "link": "https://www.semanticscholar.org",
+    "category": "Research",
+    "tags": [
+      "academic",
+      "search",
+      "papers"
+    ],
+    "icon": "https://logo.clearbit.com/www.semanticscholar.org"
+  },
+  {
+    "name": "Scholarcy",
+    "link": "https://www.scholarcy.com",
+    "category": "Research",
+    "tags": [
+      "summarization",
+      "papers",
+      "notes"
+    ],
+    "icon": "https://logo.clearbit.com/www.scholarcy.com"
+  },
+  {
+    "name": "Paperpile AI",
+    "link": "https://paperpile.com",
+    "category": "Research",
+    "tags": [
+      "references",
+      "papers",
+      "workflow"
+    ],
+    "icon": "https://logo.clearbit.com/paperpile.com"
+  },
+  {
+    "name": "Perplexity",
+    "link": "https://perplexity.ai",
+    "category": "Research",
+    "tags": [
+      "search",
+      "qa",
+      "knowledge"
+    ],
+    "icon": "https://logo.clearbit.com/perplexity.ai"
+  },
+  {
+    "name": "You.com",
+    "link": "https://you.com",
+    "category": "Research",
+    "tags": [
+      "search",
+      "assistant",
+      "browser"
+    ],
+    "icon": "https://logo.clearbit.com/you.com"
+  },
+  {
+    "name": "ChatPDF",
+    "link": "https://chatpdf.com",
+    "category": "Research",
+    "tags": [
+      "documents",
+      "qa",
+      "pdf"
+    ],
+    "icon": "https://logo.clearbit.com/chatpdf.com"
+  },
+  {
+    "name": "Litmaps",
+    "link": "https://www.litmaps.com",
+    "category": "Research",
+    "tags": [
+      "papers",
+      "discovery",
+      "visualization"
+    ],
+    "icon": "https://logo.clearbit.com/www.litmaps.com"
+  },
+  {
+    "name": "Iris.ai",
+    "link": "https://iris.ai",
+    "category": "Research",
+    "tags": [
+      "papers",
+      "extraction",
+      "network"
+    ],
+    "icon": "https://logo.clearbit.com/iris.ai"
+  },
+  {
+    "name": "SciSpace",
+    "link": "https://typeset.io",
+    "category": "Research",
+    "tags": [
+      "papers",
+      "formatting",
+      "research"
+    ],
+    "icon": "https://logo.clearbit.com/typeset.io"
+  },
+  {
+    "name": "Explainpaper",
+    "link": "https://www.explainpaper.com",
+    "category": "Research",
+    "tags": [
+      "simplify",
+      "papers",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.explainpaper.com"
+  },
+  {
+    "name": "Genei AI",
+    "link": "https://www.genei.io",
+    "category": "Research",
+    "tags": [
+      "summaries",
+      "documents",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.genei.io"
+  },
+  {
+    "name": "NotebookLM",
+    "link": "https://notebooklm.google",
+    "category": "Research",
+    "tags": [
+      "notes",
+      "assistant",
+      "google"
+    ],
+    "icon": "https://logo.clearbit.com/notebooklm.google"
+  },
+  {
+    "name": "AskYourPDF",
+    "link": "https://askyourpdf.com",
+    "category": "Research",
+    "tags": [
+      "pdf",
+      "chatbot",
+      "qa"
+    ],
+    "icon": "https://logo.clearbit.com/askyourpdf.com"
+  },
+  {
+    "name": "ScholarAI",
+    "link": "https://www.scholarai.co",
+    "category": "Research",
+    "tags": [
+      "academic",
+      "qa",
+      "assistant"
+    ],
+    "icon": "https://logo.clearbit.com/www.scholarai.co"
+  },
+  {
+    "name": "Metaphor",
+    "link": "https://metaphor.systems",
+    "category": "Research",
+    "tags": [
+      "search",
+      "semantic",
+      "assistant"
+    ],
+    "icon": "https://logo.clearbit.com/metaphor.systems"
+  },
+  {
+    "name": "Wolfram Alpha",
+    "link": "https://www.wolframalpha.com",
+    "category": "Research",
+    "tags": [
+      "computation",
+      "knowledge",
+      "search"
+    ],
+    "icon": "https://logo.clearbit.com/www.wolframalpha.com"
+  },
+  {
+    "name": "Scinapse",
+    "link": "https://scinapse.io",
+    "category": "Research",
+    "tags": [
+      "papers",
+      "search",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/scinapse.io"
+  },
+  {
+    "name": "QuillBot Summary",
+    "link": "https://quillbot.com/summary",
+    "category": "Research",
+    "tags": [
+      "summaries",
+      "ai",
+      "research"
+    ],
+    "icon": "https://logo.clearbit.com/quillbot.com"
+  },
+  {
+    "name": "Glean",
+    "link": "https://glean.com",
+    "category": "Research",
+    "tags": [
+      "knowledge",
+      "search",
+      "teams"
+    ],
+    "icon": "https://logo.clearbit.com/glean.com"
+  },
+  {
+    "name": "Delve AI",
+    "link": "https://www.delve.ai",
+    "category": "Research",
+    "tags": [
+      "insights",
+      "analysis",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.delve.ai"
+  },
+  {
+    "name": "Researcher App",
+    "link": "https://www.researcher-app.com",
+    "category": "Research",
+    "tags": [
+      "papers",
+      "updates",
+      "alerts"
+    ],
+    "icon": "https://logo.clearbit.com/www.researcher-app.com"
+  },
+  {
+    "name": "Semantic Scholar Labs",
+    "link": "https://www.semanticscholar.org/labs",
+    "category": "Research",
+    "tags": [
+      "experiments",
+      "ai",
+      "papers"
+    ],
+    "icon": "https://logo.clearbit.com/www.semanticscholar.org"
+  },
+  {
+    "name": "ArXiv Vanity",
+    "link": "https://www.arxiv-vanity.com",
+    "category": "Research",
+    "tags": [
+      "papers",
+      "reading",
+      "conversion"
+    ],
+    "icon": "https://logo.clearbit.com/www.arxiv-vanity.com"
+  },
+  {
+    "name": "Figma",
+    "link": "https://www.figma.com",
+    "category": "Design",
+    "tags": [
+      "ui",
+      "collaboration",
+      "design"
+    ],
+    "icon": "https://logo.clearbit.com/www.figma.com"
+  },
+  {
+    "name": "Adobe Express",
+    "link": "https://www.adobe.com/express",
+    "category": "Design",
+    "tags": [
+      "creative",
+      "visuals",
+      "templates"
+    ],
+    "icon": "https://logo.clearbit.com/www.adobe.com"
+  },
+  {
+    "name": "Uizard",
+    "link": "https://uizard.io",
+    "category": "Design",
+    "tags": [
+      "wireframes",
+      "ui",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/uizard.io"
+  },
+  {
+    "name": "Framer",
+    "link": "https://www.framer.com",
+    "category": "Design",
+    "tags": [
+      "web",
+      "design",
+      "interaction"
+    ],
+    "icon": "https://logo.clearbit.com/www.framer.com"
+  },
+  {
+    "name": "Visily",
+    "link": "https://www.visily.ai",
+    "category": "Design",
+    "tags": [
+      "mockups",
+      "ai",
+      "design"
+    ],
+    "icon": "https://logo.clearbit.com/www.visily.ai"
+  },
+  {
+    "name": "Khroma",
+    "link": "https://khroma.co",
+    "category": "Design",
+    "tags": [
+      "colors",
+      "palette",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/khroma.co"
+  },
+  {
+    "name": "Penpot",
+    "link": "https://penpot.app",
+    "category": "Design",
+    "tags": [
+      "open-source",
+      "ui",
+      "design"
+    ],
+    "icon": "https://logo.clearbit.com/penpot.app"
+  },
+  {
+    "name": "Magic Studio",
+    "link": "https://magicstudio.com",
+    "category": "Design",
+    "tags": [
+      "creation",
+      "ai",
+      "visuals"
+    ],
+    "icon": "https://logo.clearbit.com/magicstudio.com"
+  },
+  {
+    "name": "Fronty",
+    "link": "https://fronty.com",
+    "category": "Design",
+    "tags": [
+      "web",
+      "conversion",
+      "design"
+    ],
+    "icon": "https://logo.clearbit.com/fronty.com"
+  },
+  {
+    "name": "Looka",
+    "link": "https://looka.com",
+    "category": "Design",
+    "tags": [
+      "logo",
+      "branding",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/looka.com"
+  },
+  {
+    "name": "LogoAI",
+    "link": "https://logoai.com",
+    "category": "Design",
+    "tags": [
+      "logo",
+      "design",
+      "branding"
+    ],
+    "icon": "https://logo.clearbit.com/logoai.com"
+  },
+  {
+    "name": "Placeit",
+    "link": "https://placeit.net",
+    "category": "Design",
+    "tags": [
+      "mockups",
+      "branding",
+      "templates"
+    ],
+    "icon": "https://logo.clearbit.com/placeit.net"
+  },
+  {
+    "name": "Visme",
+    "link": "https://www.visme.co",
+    "category": "Design",
+    "tags": [
+      "visual",
+      "presentations",
+      "design"
+    ],
+    "icon": "https://logo.clearbit.com/www.visme.co"
+  },
+  {
+    "name": "Colormind",
+    "link": "https://colormind.io",
+    "category": "Design",
+    "tags": [
+      "palette",
+      "colors",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/colormind.io"
+  },
+  {
+    "name": "Cleanup.pictures",
+    "link": "https://cleanup.pictures",
+    "category": "Design",
+    "tags": [
+      "retouch",
+      "photo",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/cleanup.pictures"
+  },
+  {
+    "name": "Vectorizer AI",
+    "link": "https://vectorizer.ai",
+    "category": "Design",
+    "tags": [
+      "vector",
+      "conversion",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/vectorizer.ai"
+  },
+  {
+    "name": "Designsnap AI",
+    "link": "https://designsnap.ai",
+    "category": "Design",
+    "tags": [
+      "ui",
+      "mockups",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/designsnap.ai"
+  },
+  {
+    "name": "Tailor Brands",
+    "link": "https://www.tailorbrands.com",
+    "category": "Design",
+    "tags": [
+      "branding",
+      "logo",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/www.tailorbrands.com"
+  },
+  {
+    "name": "LogoMakr",
+    "link": "https://logomakr.com",
+    "category": "Design",
+    "tags": [
+      "logo",
+      "design",
+      "tool"
+    ],
+    "icon": "https://logo.clearbit.com/logomakr.com"
+  },
+  {
+    "name": "Deep Dream Generator",
+    "link": "https://deepdreamgenerator.com",
+    "category": "Design",
+    "tags": [
+      "art",
+      "dream",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/deepdreamgenerator.com"
+  },
+  {
+    "name": "Dream by Wombo",
+    "link": "https://dream.ai",
+    "category": "Design",
+    "tags": [
+      "image",
+      "creation",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/dream.ai"
+  },
+  {
+    "name": "Sketch2Code",
+    "link": "https://sketch2code.azurewebsites.net",
+    "category": "Design",
+    "tags": [
+      "sketch",
+      "code",
+      "conversion"
+    ],
+    "icon": "https://logo.clearbit.com/sketch2code.azurewebsites.net"
+  },
+  {
+    "name": "MagicPattern",
+    "link": "https://magicpattern.design",
+    "category": "Design",
+    "tags": [
+      "patterns",
+      "design",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/magicpattern.design"
+  },
+  {
+    "name": "Patterned AI",
+    "link": "https://patterned.ai",
+    "category": "Design",
+    "tags": [
+      "textures",
+      "design",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/patterned.ai"
+  },
+  {
+    "name": "PosterMyWall",
+    "link": "https://www.postermywall.com",
+    "category": "Design",
+    "tags": [
+      "posters",
+      "templates",
+      "design"
+    ],
+    "icon": "https://logo.clearbit.com/www.postermywall.com"
+  },
+  {
+    "name": "DesignCap",
+    "link": "https://www.designcap.com",
+    "category": "Design",
+    "tags": [
+      "graphics",
+      "templates",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.designcap.com"
+  },
+  {
+    "name": "Copy.ai",
+    "link": "https://www.copy.ai",
+    "category": "Marketing",
+    "tags": [
+      "copywriting",
+      "ads",
+      "content"
+    ],
+    "icon": "https://logo.clearbit.com/www.copy.ai"
+  },
+  {
+    "name": "Jasper",
+    "link": "https://www.jasper.ai",
+    "category": "Marketing",
+    "tags": [
+      "marketing",
+      "content",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.jasper.ai"
+  },
+  {
+    "name": "Writesonic",
+    "link": "https://writesonic.com",
+    "category": "Marketing",
+    "tags": [
+      "copy",
+      "ads",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/writesonic.com"
+  },
+  {
+    "name": "Anyword",
+    "link": "https://anyword.com",
+    "category": "Marketing",
+    "tags": [
+      "copywriting",
+      "ads",
+      "performance"
+    ],
+    "icon": "https://logo.clearbit.com/anyword.com"
+  },
+  {
+    "name": "MarketMuse",
+    "link": "https://marketmuse.com",
+    "category": "Marketing",
+    "tags": [
+      "seo",
+      "content",
+      "research"
+    ],
+    "icon": "https://logo.clearbit.com/marketmuse.com"
+  },
+  {
+    "name": "Mailchimp",
+    "link": "https://mailchimp.com",
+    "category": "Marketing",
+    "tags": [
+      "email",
+      "automation",
+      "campaigns"
+    ],
+    "icon": "https://logo.clearbit.com/mailchimp.com"
+  },
+  {
+    "name": "HubSpot",
+    "link": "https://www.hubspot.com",
+    "category": "Marketing",
+    "tags": [
+      "crm",
+      "marketing",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/www.hubspot.com"
+  },
+  {
+    "name": "Smartwriter",
+    "link": "https://www.smartwriter.ai",
+    "category": "Marketing",
+    "tags": [
+      "email",
+      "personalization",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.smartwriter.ai"
+  },
+  {
+    "name": "Lately AI",
+    "link": "https://www.lately.ai",
+    "category": "Marketing",
+    "tags": [
+      "social",
+      "automation",
+      "content"
+    ],
+    "icon": "https://logo.clearbit.com/www.lately.ai"
+  },
+  {
+    "name": "Phrasee",
+    "link": "https://phrasee.co",
+    "category": "Marketing",
+    "tags": [
+      "language",
+      "email",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/phrasee.co"
+  },
+  {
+    "name": "Madgicx",
+    "link": "https://madgicx.com",
+    "category": "Marketing",
+    "tags": [
+      "ads",
+      "optimization",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/madgicx.com"
+  },
+  {
+    "name": "Ocoya",
+    "link": "https://www.ocoya.com",
+    "category": "Marketing",
+    "tags": [
+      "social",
+      "content",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/www.ocoya.com"
+  },
+  {
+    "name": "SocialBee",
+    "link": "https://socialbee.io",
+    "category": "Marketing",
+    "tags": [
+      "social",
+      "scheduling",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/socialbee.io"
+  },
+  {
+    "name": "SEMrush",
+    "link": "https://www.semrush.com",
+    "category": "Marketing",
+    "tags": [
+      "seo",
+      "analytics",
+      "content"
+    ],
+    "icon": "https://logo.clearbit.com/www.semrush.com"
+  },
+  {
+    "name": "Hootsuite",
+    "link": "https://hootsuite.com",
+    "category": "Marketing",
+    "tags": [
+      "social",
+      "management",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/hootsuite.com"
+  },
+  {
+    "name": "Sendinblue",
+    "link": "https://www.sendinblue.com",
+    "category": "Marketing",
+    "tags": [
+      "email",
+      "automation",
+      "crm"
+    ],
+    "icon": "https://logo.clearbit.com/www.sendinblue.com"
+  },
+  {
+    "name": "ActiveCampaign",
+    "link": "https://www.activecampaign.com",
+    "category": "Marketing",
+    "tags": [
+      "email",
+      "crm",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/www.activecampaign.com"
+  },
+  {
+    "name": "Buffer",
+    "link": "https://buffer.com",
+    "category": "Marketing",
+    "tags": [
+      "social",
+      "scheduling",
+      "analytics"
+    ],
+    "icon": "https://logo.clearbit.com/buffer.com"
+  },
+  {
+    "name": "Sprout Social",
+    "link": "https://sproutsocial.com",
+    "category": "Marketing",
+    "tags": [
+      "social",
+      "analytics",
+      "engagement"
+    ],
+    "icon": "https://logo.clearbit.com/sproutsocial.com"
+  },
+  {
+    "name": "MailerLite",
+    "link": "https://www.mailerlite.com",
+    "category": "Marketing",
+    "tags": [
+      "email",
+      "campaigns",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/www.mailerlite.com"
+  },
+  {
+    "name": "Campaign Monitor",
+    "link": "https://www.campaignmonitor.com",
+    "category": "Marketing",
+    "tags": [
+      "email",
+      "marketing",
+      "analytics"
+    ],
+    "icon": "https://logo.clearbit.com/www.campaignmonitor.com"
+  },
+  {
+    "name": "Drip",
+    "link": "https://www.drip.com",
+    "category": "Marketing",
+    "tags": [
+      "ecommerce",
+      "email",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/www.drip.com"
+  },
+  {
+    "name": "Klaviyo",
+    "link": "https://www.klaviyo.com",
+    "category": "Marketing",
+    "tags": [
+      "email",
+      "segmentation",
+      "commerce"
+    ],
+    "icon": "https://logo.clearbit.com/www.klaviyo.com"
+  },
+  {
+    "name": "Adzooma",
+    "link": "https://www.adzooma.com",
+    "category": "Marketing",
+    "tags": [
+      "ads",
+      "optimization",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/www.adzooma.com"
+  },
+  {
+    "name": "Sprinklr",
+    "link": "https://www.sprinklr.com",
+    "category": "Marketing",
+    "tags": [
+      "enterprise",
+      "social",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.sprinklr.com"
+  },
+  {
+    "name": "Contently",
+    "link": "https://contently.com",
+    "category": "Marketing",
+    "tags": [
+      "content",
+      "strategy",
+      "creation"
+    ],
+    "icon": "https://logo.clearbit.com/contently.com"
+  },
+  {
+    "name": "BuzzSumo",
+    "link": "https://buzzsumo.com",
+    "category": "Marketing",
+    "tags": [
+      "research",
+      "content",
+      "analytics"
+    ],
+    "icon": "https://logo.clearbit.com/buzzsumo.com"
+  },
+  {
+    "name": "Mailmodo",
+    "link": "https://www.mailmodo.com",
+    "category": "Marketing",
+    "tags": [
+      "email",
+      "interactive",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/www.mailmodo.com"
+  },
+  {
+    "name": "Outbrain",
+    "link": "https://www.outbrain.com",
+    "category": "Marketing",
+    "tags": [
+      "discovery",
+      "content",
+      "distribution"
+    ],
+    "icon": "https://logo.clearbit.com/www.outbrain.com"
+  },
+  {
+    "name": "Taboola",
+    "link": "https://www.taboola.com",
+    "category": "Marketing",
+    "tags": [
+      "promotion",
+      "content",
+      "ads"
+    ],
+    "icon": "https://logo.clearbit.com/www.taboola.com"
+  },
+  {
+    "name": "OpenAI API",
+    "link": "https://platform.openai.com",
+    "category": "Other",
+    "tags": [
+      "api",
+      "models",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/platform.openai.com"
+  },
+  {
+    "name": "Hugging Face",
+    "link": "https://huggingface.co",
+    "category": "Other",
+    "tags": [
+      "models",
+      "community",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/huggingface.co"
+  },
+  {
+    "name": "Replicate",
+    "link": "https://replicate.com",
+    "category": "Other",
+    "tags": [
+      "models",
+      "deploy",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/replicate.com"
+  },
+  {
+    "name": "Cohere",
+    "link": "https://cohere.com",
+    "category": "Other",
+    "tags": [
+      "language",
+      "models",
+      "api"
+    ],
+    "icon": "https://logo.clearbit.com/cohere.com"
+  },
+  {
+    "name": "Anthropic",
+    "link": "https://www.anthropic.com",
+    "category": "Other",
+    "tags": [
+      "models",
+      "ai",
+      "ethics"
+    ],
+    "icon": "https://logo.clearbit.com/www.anthropic.com"
+  },
+  {
+    "name": "AssemblyAI",
+    "link": "https://www.assemblyai.com",
+    "category": "Other",
+    "tags": [
+      "speech",
+      "api",
+      "models"
+    ],
+    "icon": "https://logo.clearbit.com/www.assemblyai.com"
+  },
+  {
+    "name": "Pinecone",
+    "link": "https://www.pinecone.io",
+    "category": "Other",
+    "tags": [
+      "vector",
+      "search",
+      "database"
+    ],
+    "icon": "https://logo.clearbit.com/www.pinecone.io"
+  },
+  {
+    "name": "Weaviate",
+    "link": "https://www.weaviate.io",
+    "category": "Other",
+    "tags": [
+      "vector",
+      "database",
+      "knowledge"
+    ],
+    "icon": "https://logo.clearbit.com/www.weaviate.io"
+  },
+  {
+    "name": "Algolia AI",
+    "link": "https://www.algolia.com",
+    "category": "Other",
+    "tags": [
+      "search",
+      "api",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.algolia.com"
+  },
+  {
+    "name": "Vercel AI",
+    "link": "https://vercel.com/ai",
+    "category": "Other",
+    "tags": [
+      "deployment",
+      "edge",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/vercel.com"
+  },
+  {
+    "name": "LlamaIndex",
+    "link": "https://www.llamaindex.ai",
+    "category": "Other",
+    "tags": [
+      "embeddings",
+      "knowledge",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.llamaindex.ai"
+  },
+  {
+    "name": "Claude API",
+    "link": "https://www.anthropic.com/claude-api",
+    "category": "Other",
+    "tags": [
+      "api",
+      "models",
+      "assistant"
+    ],
+    "icon": "https://logo.clearbit.com/www.anthropic.com"
+  },
+  {
+    "name": "Vertex AI",
+    "link": "https://cloud.google.com/vertex-ai",
+    "category": "Other",
+    "tags": [
+      "google",
+      "mlops",
+      "models"
+    ],
+    "icon": "https://logo.clearbit.com/cloud.google.com"
+  },
+  {
+    "name": "Amazon SageMaker",
+    "link": "https://aws.amazon.com/sagemaker",
+    "category": "Other",
+    "tags": [
+      "aws",
+      "ml",
+      "training"
+    ],
+    "icon": "https://logo.clearbit.com/aws.amazon.com"
+  },
+  {
+    "name": "Azure OpenAI",
+    "link": "https://azure.microsoft.com/services/openai-service",
+    "category": "Other",
+    "tags": [
+      "microsoft",
+      "cloud",
+      "models"
+    ],
+    "icon": "https://logo.clearbit.com/azure.microsoft.com"
+  },
+  {
+    "name": "Mistral AI",
+    "link": "https://www.mistral.ai",
+    "category": "Other",
+    "tags": [
+      "models",
+      "research",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.mistral.ai"
+  },
+  {
+    "name": "Aleph Alpha",
+    "link": "https://www.aleph-alpha.com",
+    "category": "Other",
+    "tags": [
+      "models",
+      "europe",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.aleph-alpha.com"
+  },
+  {
+    "name": "OpenAI Codex",
+    "link": "https://platform.openai.com/docs/guides/code",
+    "category": "Other",
+    "tags": [
+      "code",
+      "api",
+      "models"
+    ],
+    "icon": "https://logo.clearbit.com/platform.openai.com"
+  },
+  {
+    "name": "H2O.ai",
+    "link": "https://www.h2o.ai",
+    "category": "Other",
+    "tags": [
+      "models",
+      "enterprise",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/www.h2o.ai"
+  },
+  {
+    "name": "Weights & Biases",
+    "link": "https://wandb.ai",
+    "category": "Other",
+    "tags": [
+      "mlops",
+      "experiments",
+      "tracking"
+    ],
+    "icon": "https://logo.clearbit.com/wandb.ai"
+  },
+  {
+    "name": "Paperspace",
+    "link": "https://www.paperspace.com",
+    "category": "Other",
+    "tags": [
+      "compute",
+      "gpu",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.paperspace.com"
+  },
+  {
+    "name": "Databricks LLM",
+    "link": "https://databricks.com/product/databricks-llm",
+    "category": "Other",
+    "tags": [
+      "enterprise",
+      "llm",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/databricks.com"
+  },
+  {
+    "name": "Seldon Deploy",
+    "link": "https://www.seldon.io",
+    "category": "Other",
+    "tags": [
+      "deployment",
+      "mlops",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.seldon.io"
+  },
+  {
+    "name": "DataRobot",
+    "link": "https://www.datarobot.com",
+    "category": "Other",
+    "tags": [
+      "enterprise",
+      "ml",
+      "automation"
+    ],
+    "icon": "https://logo.clearbit.com/www.datarobot.com"
+  },
+  {
+    "name": "EleutherAI",
+    "link": "https://eleuther.ai",
+    "category": "Other",
+    "tags": [
+      "open-source",
+      "models",
+      "research"
+    ],
+    "icon": "https://logo.clearbit.com/eleuther.ai"
+  },
+  {
+    "name": "Moonshot AI",
+    "link": "https://moonshot.ai",
+    "category": "Other",
+    "tags": [
+      "automation",
+      "ai",
+      "workflow"
+    ],
+    "icon": "https://logo.clearbit.com/moonshot.ai"
+  },
+  {
+    "name": "Neptune AI",
+    "link": "https://neptune.ai",
+    "category": "Other",
+    "tags": [
+      "mlops",
+      "tracking",
+      "experiments"
+    ],
+    "icon": "https://logo.clearbit.com/neptune.ai"
+  },
+  {
+    "name": "Arize AI",
+    "link": "https://www.arize.com",
+    "category": "Other",
+    "tags": [
+      "monitoring",
+      "models",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/www.arize.com"
+  },
+  {
+    "name": "Hugging Face Spaces",
+    "link": "https://huggingface.co/spaces",
+    "category": "Other",
+    "tags": [
+      "hosting",
+      "models",
+      "community"
+    ],
+    "icon": "https://logo.clearbit.com/huggingface.co"
+  },
+  {
+    "name": "Runway Gen-2",
+    "link": "https://runwayml.com/gen-2",
+    "category": "Other",
+    "tags": [
+      "text-to-video",
+      "generation",
+      "ai"
+    ],
+    "icon": "https://logo.clearbit.com/runwayml.com"
+  },
+  {
+    "name": "Cohere Command",
+    "link": "https://cohere.com/command",
+    "category": "Other",
+    "tags": [
+      "language",
+      "chat",
+      "api"
+    ],
+    "icon": "https://logo.clearbit.com/cohere.com"
+  }
+]
