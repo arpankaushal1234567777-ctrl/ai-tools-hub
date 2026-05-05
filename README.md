@@ -47,3 +47,7 @@ Open the frontend URL; it will call the API at `VITE_API_URL` (fallback `http://
 ## Notes
 - Icons load from provided URLs; fallback shows the first letter when broken or missing.
 - Dark, minimal UI with categories, search, stats, and add-tool form.
+
+## Hosted Link
+- https://aitoolhub47.vercel.app
+- 
